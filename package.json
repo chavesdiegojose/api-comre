@@ -1,0 +1,28 @@
+{
+  "name": "api-comre",
+  "version": "1.0.0",
+  "description": "Esto es una api desarrollada para el servicio de registro de datos de censo en comunidades.\r comre es una abreviación de: Community Registration.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavesdiegojose/api-comre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavesdiegojose/api-comre/issues"
+  },
+  "homepage": "https://github.com/chavesdiegojose/api-comre#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
