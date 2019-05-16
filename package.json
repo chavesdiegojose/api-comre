@@ -4,6 +4,7 @@
   "description": "Esto es una api desarrollada para el servicio de registro de datos de censo en comunidades.\r comre es una abreviación de: Community Registration.",
   "main": "index.js",
   "scripts": {
+    "start": "/api/index.js",
     "dev": "nodemon api/index.js"
   },
   "repository": {

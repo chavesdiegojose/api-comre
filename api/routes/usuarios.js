@@ -5,7 +5,7 @@ const mysqlConnection = require('../mysql');
 
 //Routes
 // GET all usuarios
-router.get('/', (req, res) => {
+router.get('/usuarios', (req, res) => {
     mysqlConnection.query('SELECT * FROM usuarios', (err, rows, fields) => {
         if(!err) {
         res.json(rows);
